@@ -2,7 +2,7 @@
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/listViewLayout"
+    android:id="@+id/customGridViewLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@android:color/white">
@@ -11,7 +11,7 @@
         android:id="@+id/textview"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:text="ListView"
+        android:text="GridView"
         android:textColor="#FFFFFF"
         android:textSize="16sp"
         android:background="#5e17eb"
@@ -70,13 +70,11 @@
 
     </LinearLayout>
 
-    <ListView
-        android:id="@+id/listview1"
+    <GridView
+        android:id="@+id/gridview1"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="1dp"
-        tools:ignore="MissingConstraints"
+        android:layout_height="wrap_content"
+        android:numColumns="3"
         android:layout_below="@id/linearLayout"/>
 
 </RelativeLayout>

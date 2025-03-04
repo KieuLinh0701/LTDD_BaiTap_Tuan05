@@ -11,15 +11,15 @@ import android.widget.TextView;
 import com.example.baitap01.R;
 import com.example.baitap01.models.MonHoc;
 
-import java.util.List;
+import java.util.ArrayList;
 
 public class MonHocAdapter extends BaseAdapter {
     //khai báo
     private Context context;
     private int layout;
-    private List<MonHoc> monHocList;
+    private ArrayList<MonHoc> monHocList;
     //tạo Constructors
-    public MonHocAdapter(Context context, int layout, List<MonHoc> monHocList) {
+    public MonHocAdapter(Context context, int layout, ArrayList<MonHoc> monHocList) {
         this.context = context;
         this.layout = layout;
         this.monHocList = monHocList;

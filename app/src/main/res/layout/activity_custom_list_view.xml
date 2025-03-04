@@ -2,7 +2,7 @@
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/listViewLayout"
+    android:id="@+id/customListViewLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@android:color/white">
@@ -36,10 +36,10 @@
         android:padding="15dp">
 
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/btnCapNhat"
+            android:id="@+id/btnNhap"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:text="CẬP NHẬT"
+            android:text="THÊM"
             android:background="#5e17eb"
             android:textColor="#FFFFFF"
             android:layout_marginStart="15dp"
@@ -47,10 +47,10 @@
             android:layout_weight="1"/>
 
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/btnNhap"
+            android:id="@+id/btnCapNhat"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:text="THÊM"
+            android:text="CẬP NHẬT"
             android:background="#5e17eb"
             android:textColor="#FFFFFF"
             android:layout_marginStart="15dp"

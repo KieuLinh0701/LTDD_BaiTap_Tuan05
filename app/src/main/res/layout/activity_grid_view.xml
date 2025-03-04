@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/listViewLayout"
+    android:id="@+id/gridViewLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/white">
+    tools:context=".activities.GridViewActivity">
 
     <TextView
         android:id="@+id/textview"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:text="ListView"
+        android:text="GridView"
         android:textColor="#FFFFFF"
         android:textSize="16sp"
         android:background="#5e17eb"
@@ -70,10 +70,11 @@
 
     </LinearLayout>
 
-    <ListView
-        android:id="@+id/listview1"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+    <GridView
+        android:numColumns='3'
+        android:id="@+id/gridview1"
+        android:layout_width="409dp"
+        android:layout_height="729dp"
         tools:layout_editor_absoluteX="1dp"
         tools:layout_editor_absoluteY="1dp"
         tools:ignore="MissingConstraints"
