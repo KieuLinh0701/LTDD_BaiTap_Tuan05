@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="8dp">
+
+    <!-- Code -->
+    <TextView
+        android:id="@+id/tv_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="8dp"
+        android:textColor="#19b395"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:text="60610"
+        android:layout_centerInParent="true"/>
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/tv_code"
+        android:layout_marginStart="16dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="#2c3e50"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:text="CHUỖI NGÀY VẮNG EM" />
+
+    <!-- Lyric -->
+    <TextView
+        android:id="@+id/tv_lyric"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_title"
+        android:layout_alignStart="@id/tv_title"
+        android:layout_marginTop="4dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="#34495e"
+        android:textSize="14sp"
+        tools:text="Từ khi em bước ra đi cõi lòng anh ngập tràn bão" />
+
+    <!-- Artist -->
+    <TextView
+        android:id="@+id/tv_artist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_lyric"
+        android:layout_alignStart="@id/tv_title"
+        android:layout_marginTop="4dp"
+        android:textColor="#7f8c8d"
+        android:textSize="14sp"
+        tools:text="Duy Cường" />
+
+</RelativeLayout>
